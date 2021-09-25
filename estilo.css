@@ -71,8 +71,6 @@
     
 }
 
-
-
 #box-1{
    border:3px solid red;
 }
@@ -155,7 +153,7 @@
 #bloco-01{
     color:rgb(20, 11, 141);
     border: 1px solid royalblue;
-    height: 11rem;
+    height: 10rem;
     width: 39rem;
    
 }
@@ -163,7 +161,7 @@
 #bloco-02{
     color:rgb(235, 139, 13);
     border: 1px solid royalblue;
-    height: 11rem;
+    height: 10rem;
     width: 39rem;
 }
  
