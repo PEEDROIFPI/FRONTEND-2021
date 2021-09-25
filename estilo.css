@@ -1,33 +1,192 @@
-body{
-    background-color: blue;
-}
-h1{
-    color:#00ff55;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
 
-h2{
-    color:rgb(144, 156, 35);
+#conteiner {
+    border: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-h3{
-    color: rgb(216, 8, 8);
+#conteiner2{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 2pixel;
 }
 
-p{
-    color: #00ff55;
+#conteiner3{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    flex-grow: 1;  
+
+}
+
+.flex-item {
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+}
+
+.flex{
+    width: 1rem;
+    height: 2rem;
+    margin: 2px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    border: 10px;
+}
+
+.flex-item-barco{
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    
+    
 }
 
 
-a{
+
+#box-1{
+   border:3px solid red;
+}
+
+#box-2{
+    border: 3px solid yellow;
+}
+#box-3{
+    border: 3px solid blue;
+    flex-grow: 10;
+}
+#box-4{
+    border: 3px solid green;
+}
+#box-5{
+    border: 3px solid rgb(255, 0, 85);
+}
+
+#box-01{
     color: red;
+    
+}
+
+#box-02{
+    color: blue;
+    
+}
+
+#box-002{
+    color: rgb(17, 107, 14);
+}
+
+#box-03{
+    color: rgb(6, 184, 0);
+    
+}
+
+#box-04{
+    color: #eea111;
+    
+}
+
+#box-05{
+    color: #fc1037;
+    
+}
+
+#box-06{
+    color: rgb(233, 71, 138);
+   
+}
+
+#box-07{
+    color: rgb(235, 139, 13);
+    
+}
+
+#box-08{
+    color: rgb(17, 16, 16);
+    
+}
+
+#box-09{
+    color: rgb(100, 2, 59)(168, 29, 110);
+}
+#part{
+    display:contents;
+    align-items:center
+}
+
+#part-1{
+    color: black;
+    border: 1px solid green;
+    height: 36rem;
+    width: 29rem;
+    flex-direction: column;
+    
+}
+
+#bloco-01{
+    color:rgb(20, 11, 141);
+    border: 1px solid royalblue;
+    height: 5rem;
+    width: 39rem;
+   
+}
+
+#bloco-02{
+    color:rgb(235, 139, 13);
+    border: 1px solid royalblue;
+    height: 5rem;
+    width: 39rem;
 }
  
-#dados{
-    color:rgb(19, 139, 89);
+
+#part-3{
+    color: black;
+    border: 1px solid green;
+    height: 36rem;
+    width: 29rem;
+    flex-direction:unset;
+
+    
 }
 
-img{
-    height: 40%;
-    width: 40%;
-    
+#bloco-03{
+    color:rgb(235, 139, 13);
+    border: 1px solid royalblue;
+    height: 34rem;
+    width: 4rem;
+}
+#bloco-04{
+    color:rgb(235, 139, 13);
+    border: 1px solid royalblue;
+    height: 34rem;
+    width: 4rem;
 }
